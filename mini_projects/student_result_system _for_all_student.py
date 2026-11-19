@@ -31,6 +31,7 @@ for i in range(1,student_strength+1):
   
     else:
         print("fail")
+        fail_count=fail_count+1
     if total>toper_total:
         toper_total=total
         topper_name=student_name
@@ -38,6 +39,6 @@ for i in range(1,student_strength+1):
 
 print("pass number of student in class is:",pass_count)
 print("fail number of student in class is:",fail_count)
-print("the topper is:",student_name,toper_total)
+print("the topper is:",topper_name,toper_total)
 
     
