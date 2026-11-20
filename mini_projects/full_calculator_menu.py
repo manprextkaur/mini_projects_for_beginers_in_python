@@ -9,8 +9,7 @@ def division(a,b):
 def modulus(a,b):
     return a%b
 
-a=int(input("enter your number:"))
-b=int(input("enter your number:"))
+
 while True:
     print("press 2 for subtract operation")
     print("press 1 for addition operation")
@@ -18,10 +17,13 @@ while True:
     print("press 4 for division operation")
     print("press 5 for modulus operation")
     print("press 6 Exit")
+    
     choice=int(input("enter the choice you want to perform operation"))
     if choice==6:
         print("goodbye")
         break
+    a=int(input("enter your number:"))
+    b=int(input("enter your number:"))
     if choice==1:
         print("addition operation is perform:")
         result=addition(a,b) 
